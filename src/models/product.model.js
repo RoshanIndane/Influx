@@ -8,6 +8,6 @@ const prodSchema= new mongoose.Schema({
     unitPrice:{type:Number, required:true}
 },
 {
-    versionKey:true,
+    versionKey:false,
     timestamps:true
 })
